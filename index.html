@@ -1,18 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>gaoshijie365</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+  <meta charset="utf-8" />
+  <meta name="author" content="Shijie Gao" />
+  <title>小狮子</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/images/logo_lion.svg" sizes="32x32" type="image/png" />
+  <link rel="icon" href="assets/images/logo_lion.svg" sizes="16x16" type="image/png" />
+
+  <style>
+    a {
+      color: rgb(10, 77, 204);
+    }
+
+    a.nav-link {
+      color: white;
+    }
+
+    .navbar {
+      background-color: rgb(27, 31, 35);
+    }
+  </style>
 </head>
 
 <body>
-<h2>gaoshijie365.tech</h2>
-Hello World!
+  <header>
+    <div class="navbar shadow-sm">
+      <div class="container">
+        <a href="#" class="navbar-brand d-flex align-items-center" style="color: white">
+          <img src="/assets/images/logo_lion.svg" width="36px" height="36px" />
+          <strong>小狮子</strong>
+        </a>
+        <!-- <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#">首页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">神一样的人</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">图书推荐</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">关于我</a>
+          </li>
+        </ul> -->
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light"><strong>Code Reading</strong></h1>
+          <p class="lead text-muted">
+            <strong>{ Talk is cheap. Show me the code. }</strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/header_jetpack.svg" width="100%"
+                height="225" />
+
+              <div class="card-body">
+                <p class="card-text">
+                  Jetpack
+                  是一个由多个库组成的套件，可帮助开发者遵循最佳做法，减少样板代码并编写可在各种
+                  Android
+                  版本和设备中一致运行的代码，让开发者精力集中编写重要的代码。
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="/assets/images/ic_android.png" width="48px" height="48px" />
+                  <a href="index.html">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/logo_lion.svg" width="100%"
+                height="225" />
+
+              <div class="card-body">
+                <p class="card-text">敬请期待……</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="/assets/images/logo_lion.svg" width="48px" height="48px" />
+                  <a href="index.html">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="bd-placeholder-img card-img-top" src="/assets/images/logo_lion.svg" width="100%"
+                height="225" />
+              <div class="card-body">
+                <p class="card-text">敬请期待……</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <img src="/assets/images/logo_lion.svg" width="48px" height="48px" />
+                  <a href="index.html">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-muted py-5">
+    <div class="container">
+      <p class="mb-1">还没想好写啥。</p>
+      <p class="mb-0">等想好写啥了再写。</p>
+    </div>
+  </footer>
 </body>
 
 </html>
