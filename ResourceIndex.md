@@ -11,11 +11,13 @@
 8. [敏捷软件开发：原则、模式与实践](https://book.douban.com/subject/1140457/)
 9. [重构：改善既有代码的设计（第2版）](https://book.douban.com/subject/30468597/)
 
+Backlog：
 - 计算机程序设计艺术：卷1、卷2、卷3、卷4
 - 啊哈！灵机一动
 - 人月神话
 - 代码大全
 - 怎样解题
+- 编程之美
 
 ## Sites
 - https://docs.oracle.com/en/java/index.html
